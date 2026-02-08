@@ -9,13 +9,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
   
-
-    // Aumentar o tempo antes de redirecionar
-            setTimeout(() => {
-                const url = new URL('../3/index.html', window.location.href);
-                Object.keys(params).forEach(key => {
-                    url.searchParams.append(key, params[key]);
-                });  
     
     <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
@@ -483,5 +476,11 @@
     }
   </style>
 
+    // Aumentar o tempo antes de redirecionar
+            setTimeout(() => {
+                const url = new URL('../3/index.html', window.location.href);
+                Object.keys(params).forEach(key => {
+                    url.searchParams.append(key, params[key]);
+                });  
 
 </body></html>
